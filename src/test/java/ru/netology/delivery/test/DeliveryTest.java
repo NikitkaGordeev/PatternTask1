@@ -4,6 +4,7 @@ import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.Keys;
 import ru.netology.delivery.data.DataGenerator;
 
 import java.time.Duration;
@@ -32,7 +33,7 @@ class DeliveryTest {
         var secondMeetingDate = DataGenerator.generateDate(daysToAddForSecondMeeting);
         $("[data-test-id='city'] input").setValue(generateCity("ru"));
         $("[data-test-id='date'] input").doubleClick();
-        $("[data-test-id='date'] input").sendKeys(" ");
+        $("[data-test-id='date'] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='date'] input").setValue(firstMeetingDate);
         $("[data-test-id='name'] input").setValue(generateName("ru"));
         $("[data-test-id='phone'] input").setValue(generatePhone("ru"));
@@ -41,7 +42,7 @@ class DeliveryTest {
         $(withText("Успешно!")).shouldBe(visible, Duration.ofSeconds(15));
         $(".notification__content").shouldHave(Condition.text("Встреча успешно запланирована на " + firstMeetingDate));
         $("[data-test-id='date'] input").doubleClick();
-        $("[data-test-id='date'] input").sendKeys(" ");
+        $("[data-test-id='date'] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='date'] input").sendKeys(secondMeetingDate);
         $(byText("Запланировать")).click();
         $(withText("Перепланировать")).shouldBe(visible, Duration.ofSeconds(15));
