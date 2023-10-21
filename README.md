@@ -177,3 +177,5 @@ Body:
 Посмотрите видео «Lombok & Lambda» в уроке «Основы автоматизации».
 
 </details>
+[![Build status](https://ci.appveyor.com/api/projects/status/2asp50ivspvaixw8?svg=true)](https://ci.appveyor.com/project/NikitkaGordeev/patterntask1-1186k)
+
