@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/2asp50ivspvaixw8/branch/main?svg=true)](https://ci.appveyor.com/project/NikitkaGordeev/patterntask1-1186k/branch/main)
+
 # Домашнее задание к занятию «2.3. Patterns»
 
 В качестве результата пришлите ссылку на ваш GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
@@ -177,5 +179,4 @@ Body:
 Посмотрите видео «Lombok & Lambda» в уроке «Основы автоматизации».
 
 </details>
-[![Build status](https://ci.appveyor.com/api/projects/status/2asp50ivspvaixw8?svg=true)](https://ci.appveyor.com/project/NikitkaGordeev/patterntask1-1186k)
 
