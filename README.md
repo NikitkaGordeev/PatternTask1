@@ -1,4 +1,5 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/2asp50ivspvaixw8/branch/main?svg=true)](https://ci.appveyor.com/project/NikitkaGordeev/patterntask1-1186k/branch/main)
+[![Build status](https://ci.appveyor.com/api/projects/status/2asp50ivspvaixw8?svg=true)](https://ci.appveyor.com/project/NikitkaGordeev/patterntask1-1186k)
+
 
 # Домашнее задание к занятию «2.3. Patterns»
 
